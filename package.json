@@ -1,0 +1,44 @@
+{
+  "name": "multer_cloudinary",
+  "version": "1.0.0",
+  "description": "A multer storage for cloudinary",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echwood-limited/multer_cloudinary.git"
+  },
+  "keywords": [
+    "multer",
+    "cloudinary",
+    "file",
+    "upload",
+    "file",
+    "storage",
+    "multipart",
+    "forms",
+    "profile",
+    "images",
+    "pictures",
+    "images"
+  ],
+  "author": "Ukwuani Barnabas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echwood-limited/multer_cloudinary/issues"
+  },
+  "homepage": "https://github.com/echwood-limited/multer_cloudinary#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {
+    "cloudinary": "^1.22.0",
+    "es6": "^0.0.7",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
